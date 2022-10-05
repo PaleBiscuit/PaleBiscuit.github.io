@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<head>
+    <title>Basic CSS Notes</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <button onclick="location.href='index.html'" type="button">Frontpage</button>
+            <button onclick="location.href='page3html.html'" type="button">HTML notes</button>
+            <button onclick="location.href='page4links.html'" type="button">Useful links</button>
+        </nav>
+    
+        <header>
+            <h1>My basic HTML & CSS notes from Codecademy training</h1>
+        </header>
+    </div>
+    <main>
+        <section class="css">
+            <h2>CSS notes</h2>
+            <div>
+                <ul>
+                    <li>The basic anatomy of CSS syntax written for both inline styles and stylesheets.</li>
+                    <li>Some commonly used CSS terms, such as ruleset, selector, and declaration.</li>
+                    <li>CSS inline styles can be written inside the opening HTML tag using the style attribute.</li>
+                    <li>Inline styles can be used to style HTML, but it is not the best practice.</li>
+                    <li>An internal stylesheet is written using the &lt;style&gt; element inside the &lt;head&gt; element of an HTML file.</li>
+                    <li>Internal stylesheets can be used to style HTML but are also not best practice.</li>
+                    <li>An external stylesheet separates CSS code from HTML, by using the “.css”.file extension.</li>
+                    <li>External stylesheets are the best approach when it comes to using HTML and CSS.</li>
+                    <li>External stylesheets are linked to HTML using the &lt;link&gt; element.</li>
+                    <li>CSS can select HTML elements by type, class, ID, and attribute.</li>
+                    <li>All elements can be selected using the universal selector.</li>
+                    <li>An element can have different states using the pseudo-class selector.</li>
+                    <li>Classes can be reusable, while IDs can only be used once.</li>
+                    <li>IDs are more specific than classes, and classes are more specific than type. That means IDs will override any styles from a class, and classes will override any styles from a type selector.</li>
+                    <li>Multiple selectors can be chained together to select an element. This raises the specificity but can be necessary.</li>
+                    <li>Nested elements can be selected by separating selectors with a space.</li>
+                    <li>Multiple unrelated selectors can receive the same styles by separating the selector names with commas.</li>
+                    <li>The box model comprises a set of properties used to create space around and between HTML elements.</li>
+                    <li>Borders surround the content area and padding of an element. The color, style, and thickness of a border can be set with CSS properties.</li>
+                    <li>Padding is the space between the content area and the border. It can be set in pixels or percent.</li>
+                    <li>Margin is the amount of spacing outside of an element’s border.</li>
+                    <li>Horizontal margins add, so the total space between the borders of adjacent elements is equal to the sum of the right margin of one element and the left margin of the adjacent element.</li>
+                    <li>Vertical margins collapse, so the space between vertically adjacent elements is equal to the larger margin.</li>
+                    <li>margin: 0 auto horizontally centers an element inside of its parent content area, if it has a width.</li>
+                    <li>In the default box model, box dimensions are affected by border thickness and padding.</li>
+                    <li>The box-sizing property controls the box model used by the browser.</li>
+                    <li>The default value of the box-sizing property is content-box.</li>
+                    <li>The value for the new box model is border-box.</li>
+                    <li>The border-box model is not affected by border thickness or padding.</li>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div>
+                <table border="2px">
+                    <th>Property</th>
+                    <th>Description</th>
+                    <tr>
+                        <td>font-family</td>
+                        <td>Property defines the typeface of an element.</td>
+                    </tr>
+                    <tr>
+                        <td>font-size</td>
+                        <td>Controls the size of text displayed.</td>
+                    </tr>
+                    <tr>
+                        <td>font-weight</td>
+                        <td>Defines how thin or thick text is displayed.</td>
+                    </tr>
+                    <tr>
+                        <td>text-align</td>
+                        <td>Places text in the left, right, or center of its parent container.</td>
+                    </tr>
+                    <tr>
+                        <td>color</td>
+                        <td>Defines the color of the text.</td>
+                    </tr>
+                    <tr>
+                        <td>background-color</td>
+                        <td>Defines the color behind the text.</td>
+                    </tr>
+                    <tr>
+                        <td>opacity</td>
+                        <td>CSS can make an element transparent.</td>
+                    </tr>
+                    <tr>
+                        <td>background-image</td>
+                        <td>Set the background of an element to an image.</td>
+                    </tr>
+                    <tr>
+                        <td>!important</td>
+                        <td>Will override any style, however it should almost never be used, as it is extremely difficult to override.</td>
+                    </tr>
+                    <tr>
+                        <td>height</td>
+                        <td>Define height of a content area - can be set in pixels or percentages.</td>
+                    </tr>
+                    <tr>
+                        <td>width</td>
+                        <td>Define width of a content area - can be set in pixels or percentages.</td>
+                    </tr>
+                    <tr>
+                        <td>border</td>
+                        <td>Surround the content area.</td>
+                    </tr>
+                    <tr>
+                        <td>padding</td>
+                        <td>Surround the element area.</td>
+                    </tr>
+                    <tr>
+                        <td>margin</td>
+                        <td>The amount of spacing outside of an element’s border.</td>
+                    </tr>
+                    <tr>
+                        <td>overflow</td>
+                        <td>This property can be set to display, hide, or scroll, and dictates how HTML will render content that overflows its parent’s content area.</td>
+                    </tr>
+                    <tr>
+                        <td>visibility</td>
+                        <td>Hide or show elements.</td>
+                    </tr>
+                    <tr>
+                        <td>box-sizing</td>
+                        <td>Controls the box model used by the browser.</td>
+                    </tr>
+                    <tr>
+                        <td>content-box</td>
+                        <td>Default value of box-sizing.</td>
+                    </tr>
+                    <tr>
+                        <td>border-box</td>
+                        <td>...not affected by border thickness or padding.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="5">position</td>
+                        <td>Allows you to specify the position of an element.</td>
+                    </tr>
+                    <tr>
+                        <td>When set to relative, an element’s position is relative to its default position on the page.</td>
+                    </tr>
+                    <tr>
+                        <td>When set to absolute, an element’s position is relative to its closest positioned parent element. It can be pinned to any part of the web page, but the element will still move with the rest of the document when the page is scrolled.</td>
+                    </tr>
+                    <tr>
+                        <td>When set to fixed, an element’s position can be pinned to any part of the web page. The element will remain in view no matter what.</td>
+                    </tr>
+                    <tr>
+                        <td>When set to sticky, an element can stick to a defined offset position when the user scrolls its parent container.</td>
+                    </tr>
+                    <tr>
+                        <td>z-index</td>
+                        <td>Specifies how far back or how far forward an element appears on the page when it overlaps other elements.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">display</td>
+                        <td>Allows you to control how an element flows vertically and horizontally in a document.</td>
+                    </tr>
+                    <tr>
+                        <td>inline elements take up as little space as possible, and they cannot have manually adjusted width or height.</td>
+                    </tr>
+                    <tr>
+                        <td>block elements take up the width of their container and can have manually adjusted heights.</td>
+                    </tr>
+                    <tr>
+                        <td>inline-block elements can have set width and height, but they can also appear next to each other and do not take up their entire container width.</td>
+                    </tr>
+                    <tr>
+                        <td>float</td>
+                        <td>Can move elements as far left or as far right as possible on a web page.</td>
+                    </tr>
+                    <tr>
+                        <td>clear</td>
+                        <td>You can clear an element’s left or right side (or both) using the clear property.</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>by Karina S.</p>
+    </footer>
+</body>
+</html>
