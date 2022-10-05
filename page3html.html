@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<head>
+    <title>Basic HTML Notes</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <button onclick="location.href='index.html'" type="button">Frontpage</button>
+            <button onclick="location.href='page2css.html'" type="button">CSS notes</button>
+            <button onclick="location.href='page4links.html'" type="button">Useful links</button>
+        </nav>
+    
+        <header>
+            <h1>My basic HTML & CSS notes from Codecademy training</h1>
+        </header>
+    </div>
+    <main>
+        <section class="html">
+            <h2>HTML notes</h2>
+            <div>
+                <ul>
+                    <li>HTML stands for HyperText Markup Language and is used to create the structure and content of a webpage.</li>
+                    <li>Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.</li>
+                    <li>HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.</li>
+                    <li>Any visible content should be placed within the opening and closing &lt;body&gt; tags.</li>
+                    <li>Whitespace between HTML elements helps make code easier to read while not changing how elements appear in the browser.</li>
+                    <li>Indentation also helps make code easier to read. It makes parent-child relationships visible.</li>
+                    <li>Comments are written in HTML using the following syntax: &lt;!-- comment --&gt;.</li>
+                    <li>Tables can be split into three main sections: a head, a body, and a footer.</li>
+                    <li>Semantic HTML introduces meaning to a page through specific elements that provide context as to what is in between the tags.</li>
+                    <li>Semantic HTML is a modern standard and makes a website accessible for people who use screen readers to translate the webpage and improves your websites SEO.</li>
+                </ul>
+            </div>
+            <div>
+                <table border="2px">
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <tr>
+                        <td>&lt;!DOCTYPE html&gt;</td>
+                        <td>HTML declaration</td>
+                        <td>This declaration should always be the first line of code in your HTML files. This lets the browser know what version of HTML to expect.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;html&gt;</td>
+                        <td>HTML container</td>
+                        <td>This element will contain all of your HTML code.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;head&gt;</td>
+                        <td>Document meta data</td>
+                        <td>Information about the web page, like the title, belongs within the this section of the page.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;title&gt;</td>
+                        <td>Tab title</td>
+                        <td>You can add a title to your web page by using the &lt;title&gt; element, inside of the head. This is also what you read in the browser tab.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;body&gt;</td>
+                        <td>Body</td>
+                        <td>Any visible content should be placed within the opening and closing of this task</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;--comment--&gt;</td>
+                        <td>Comment</td>
+                        <td>Comments are written in HTML using this syntax. This is for your developer-eyes only and will not be presented on any webpage or included in the code.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;header&gt;</td>
+                        <td>Header</td>
+                        <td>Contributing to create the basic structure of the webpage.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;main&gt;</td>
+                        <td>Main</td>
+                        <td>Contributing to create the basic structure of the webpage.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;nav&gt;</td>
+                        <td>Navigation</td>
+                        <td>Contributing to create the basic structure of the webpage.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;footer&gt;</td>
+                        <td>Footer</td>
+                        <td>Contributing to create the basic structure of the webpage.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;section&gt;</td>
+                        <td>Section</td>
+                        <td>Defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;article&gt;</td>
+                        <td>Article</td>
+                        <td>Holds content that makes sense on its own such as articles, blogs, comments, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;aside&gt;</td>
+                        <td>Aside</td>
+                        <td>Contains information that is related to the main content, but not required in order to understand the dominant information.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;h1&gt; .. &lt;h6&gt;</td>
+                        <td>Headings and sub-headings</td>
+                        <td>&lt;h1&gt; to &lt;h6&gt; tags, are used to provide titles for sections of content.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>Paragraph</td>
+                        <td>Specify text.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;a&gt;</td>
+                        <td>Anchor</td>
+                        <td>Anchor tags are used to link to internal pages, external pages or content on the same page. You can create sections on a webpage and jump to them using &lt;a&gt; tags and adding id's to the elements you wish to jump to.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;span&gt;</td>
+                        <td>Span</td>
+                        <td>Specify text or blocks.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div&gt;</td>
+                        <td>Division</td>
+                        <td>Specify a block of text.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;em&gt;</td>
+                        <td>Emphasize</td>
+                        <td>This is used to emphasize text.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;strong&gt;</td>
+                        <td>Strong</td>
+                        <td>This is used to emphasize text.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;br&gt;</td>
+                        <td>Break</td>
+                        <td>Used to create line breaks in the content.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ol&gt;</td>
+                        <td>Ordered List</td>
+                        <td>Create a numbered list.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                        <td>Unordered List</td>
+                        <td>Create a bullet list.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;</td>
+                        <td>Line</td>
+                        <td>Create a line within either numbered or bullet list.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td>Table</td>
+                        <td>Create a table.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;th&gt;</td>
+                        <td>Table Head</td>
+                        <td>Table headings clarify the meaning of data in the table.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tr&gt;</td>
+                        <td>Table Row</td>
+                        <td>Add a row to the table.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;td&gt;</td>
+                        <td>Table Data</td>
+                        <td>Add data to a row in the table.</td>
+                    </tr>
+                    <tr>
+                        <td>colspan</td>
+                        <td>Column Span</td>
+                        <td>Table data can span columns using the colspan attribute.</td>
+                    </tr>
+                    <tr>
+                        <td>rowspan</td>
+                        <td>Row Span</td>
+                        <td>Table data can span rows using the rowspan attribute.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;thead&gt;</td>
+                        <td>Table Header</td>
+                        <td>A tables head is created with this.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tbody&gt;</td>
+                        <td>Table Body</td>
+                        <td>A tables body is created with this.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tfoot&gt;</td>
+                        <td>Table Footer</td>
+                        <td>A tables footer is created with this.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;figure&gt;</td>
+                        <td>Figure</td>
+                        <td>Encapsulates all types of media.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;figcaption&gt;</td>
+                        <td>Figure Caption</td>
+                        <td>is used to describe the media in &lt;figure&gt;.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;img&gt;</td>
+                        <td>Image</td>
+                        <td>A tag that allows you to insert images through links. Remember &lt;src&gt; to link to location of the image you want to use and &lt;alt&gt; to write an alternative text in case the user cannot see the image.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;video&gt;</td>
+                        <td>Video</td>
+                        <td>A tag that allows you to insert videos through links. Remember &lt;src&gt; to link to location of the image you want to use and &lt;controls&gt; to enable the control functions on the page for the user.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;embed&gt;</td>
+                        <td>Embed</td>
+                        <td>Old html element that are used for media files.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;audio&gt;</td>
+                        <td>Audio</td>
+                        <td>Element for audio files. Remember &lt;src&gt; to link to location of the image you want to use and &lt;controls&gt; to enable the control functions on the page for the user.</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>by Karina S.</p>
+    </footer>
+</body>
+</html>
