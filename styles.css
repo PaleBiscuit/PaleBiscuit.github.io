@@ -35,11 +35,7 @@
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Rubik';
-    background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: lightblue;
 }
 
 h2 {
@@ -69,16 +65,23 @@ h2 {
 .frontpage .mainbuttons button {
   padding: 80px;
   border-style: solid;
-  border-color: hsl(15, 50%, 45%);
+  border-color: hsl(30, 100%, 40%);
   border-width: 4px;
   border-radius: 4%;
   font-size: 40px;
   font-weight: 600;
-  color:hsl(0, 0%, 0%);
+  color:hsl(0, 0%, 100%);
+  background-color: hsl(33, 100%, 45%);
 }
 
 .frontpage .mainbuttons button:hover {
-    background-color: hsla(0, 0%, 0%, .25);
+    border-color: hsl(30, 100%, 35%);
+    background-color: hsl(33, 100%, 40%);
+}
+
+.frontpage .mainbuttons button:active {
+    border-color: hsl(30, 100%, 20%);
+    background-color: hsl(33, 100%, 25%);
 }
 
 footer {
@@ -107,5 +110,16 @@ nav button {
   border-radius: 4%;
   font-size: 21px;
   font-weight: 400;
-  color:hsl(33, 100%, 45%);  
+  color:hsl(0, 0%, 100%);
+  background-color:hsl(33, 100%, 45%);  
 }
+
+nav button:hover {
+  border-color: hsl(30, 100%, 35%);
+  background-color:hsl(33, 100%, 40%);
+}
+
+nav button:active {
+    border-color: hsl(30, 100%, 20%);
+    background-color:hsl(33, 100%, 25%);
+  }
